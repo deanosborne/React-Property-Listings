@@ -1,0 +1,56 @@
+.logincard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  padding: 1rem;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.control input,
+.control textarea {
+  display: block;
+  font: inherit;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 0.25rem;
+  width: 100%;
+}
+
+.actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.2em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  color: #3b3b3b;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #a0a0a0;
+  border-color: #a0a0a0;
+}
